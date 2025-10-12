@@ -1,0 +1,18 @@
+{
+  "name": "sql-commands",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@types/pg": "^8.15.5",
+    "pg": "^8.16.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
