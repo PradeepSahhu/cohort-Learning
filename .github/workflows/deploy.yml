@@ -2,7 +2,7 @@ name: Setting up the paytm frontend
 on: push
 
 jobs:
-  say_hello:
+  Build Paytm UI:
     runs-on: ubuntu-latest
 
     steps:
