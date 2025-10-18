@@ -32,17 +32,17 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
 
-      -name : set up Node.js
+      - name : set up Node.js
        uses: actions/setup-node@v4
        with:
          node-version: "18"
          cache: "npm"
          cache-dependency-path: recoil-react/package-lock.json
 
-      -name: Install npm
+      - name: Install npm
        run: npm ci
        working-directory: recoil/
 
-      -name: Build the recoil application
+      - name: Build the recoil application
        run: npm run build
        working-directory: recoil/
