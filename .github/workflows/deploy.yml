@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
-        working-directory: paytm/frontend
+          cache-dependency-path: paytm/frontend/package-lock.json
 
       - name: install npm
         run: npm ci
