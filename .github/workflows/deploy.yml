@@ -14,6 +14,7 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
+        working-directory: paytm/frontend
 
       - name: install npm
         run: npm ci
