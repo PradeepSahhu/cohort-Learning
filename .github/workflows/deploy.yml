@@ -1,0 +1,13 @@
+name: Deploy yml file
+on: push
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print Hello
+        run: echo "Hello, GitHub Actions!"
