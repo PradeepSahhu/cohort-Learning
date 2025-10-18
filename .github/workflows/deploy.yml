@@ -41,8 +41,8 @@ jobs:
 
       - name: Install npm
         run: npm ci
-        working-directory: recoil/
+        working-directory: recoil-react/
 
       - name: Build the recoil application
         run: npm run build
-        working-directory: recoil/
+        working-directory: recoil-react/
