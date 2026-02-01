@@ -1,5 +1,5 @@
 {
-  "name": "orm-prisma",
+  "name": "orm-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,16 +12,13 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^25.1.0",
-    "@types/pg": "^8.16.0",
-    "dotenv": "^17.2.3",
-    "prisma": "^6.19.2",
+    "prisma": "^7.3.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.3.0",
     "@prisma/client": "^7.3.0",
-    "module-alias": "^2.2.3",
-    "pg": "^8.18.0"
+    "dotenv": "^17.2.3"
   }
 }
